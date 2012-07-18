@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">TestActivities</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Activity Test</string>
+    <string name="button">Button</string>
+
+</resources>
