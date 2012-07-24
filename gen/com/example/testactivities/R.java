@@ -8,12 +8,15 @@
 package com.example.testactivities;
 
 public final class R {
+    public static final class array {
+        public static final int checkbox_item_text=0x7f040000;
+    }
     public static final class attr {
     }
     public static final class dimen {
-        public static final int padding_large=0x7f040002;
-        public static final int padding_medium=0x7f040001;
-        public static final int padding_small=0x7f040000;
+        public static final int padding_large=0x7f050002;
+        public static final int padding_medium=0x7f050001;
+        public static final int padding_small=0x7f050000;
     }
     public static final class drawable {
         public static final int good_job=0x7f020000;
@@ -21,28 +24,44 @@ public final class R {
         public static final int ic_launcher=0x7f020002;
     }
     public static final class id {
-        public static final int button1=0x7f080002;
-        public static final int button2=0x7f080003;
-        public static final int imageView1=0x7f080001;
-        public static final int menu_settings=0x7f080004;
-        public static final int textView1=0x7f080000;
+        public static final int GoToSetAmounts=0x7f090008;
+        public static final int budgetFor=0x7f090009;
+        public static final int checkActivities=0x7f09000d;
+        public static final int checkAlcohol=0x7f09000e;
+        public static final int checkBox1=0x7f090000;
+        public static final int checkFood=0x7f09000b;
+        public static final int checkFuel=0x7f09000a;
+        public static final int checkLodging=0x7f09000c;
+        public static final int destinationGo=0x7f090002;
+        public static final int editDestination=0x7f090003;
+        public static final int listView1=0x7f090005;
+        public static final int menu_settings=0x7f09000f;
+        public static final int textView1=0x7f090004;
+        public static final int textView2=0x7f090006;
+        public static final int text_wheretogo=0x7f090001;
+        public static final int whatToShowList=0x7f090007;
     }
     public static final class layout {
-        public static final int activity2_1layout=0x7f030000;
-        public static final int button2screen=0x7f030001;
-        public static final int main_layout=0x7f030002;
+        public static final int budget_select_list_layout=0x7f030000;
+        public static final int main_layout=0x7f030001;
+        public static final int preferences_layout=0x7f030002;
+        public static final int set_amounts_layout=0x7f030003;
+        public static final int whattobudget=0x7f030004;
+        public static final int whattobudget_without_list=0x7f030005;
     }
     public static final class menu {
-        public static final int main_layout=0x7f070000;
+        public static final int main_layout=0x7f080000;
     }
     public static final class string {
-        public static final int app_name=0x7f050000;
-        public static final int button=0x7f050004;
-        public static final int hello_world=0x7f050001;
-        public static final int menu_settings=0x7f050002;
-        public static final int title_activity_main=0x7f050003;
+        public static final int Go=0x7f060006;
+        public static final int Wheredoyouwanttogo=0x7f060005;
+        public static final int app_name=0x7f060000;
+        public static final int button=0x7f060004;
+        public static final int hello_world=0x7f060001;
+        public static final int menu_settings=0x7f060002;
+        public static final int title_activity_main=0x7f060003;
     }
     public static final class style {
-        public static final int AppTheme=0x7f060000;
+        public static final int AppTheme=0x7f070000;
     }
 }

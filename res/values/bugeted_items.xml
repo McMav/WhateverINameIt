@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+    <string-array name = "checkbox_item_text">
+        <item name = "Fuel">Fuel</item>
+        <item name = "Food">Food</item>
+        <item name = "Lodging">Lodging</item>
+        <item name = "Activities">Activities</item>
+        <item name = "Alcohol">Alcohol</item>
+        <item name = "Other">Other/Additional</item>   
+    </string-array>
+       
+    
+</resources>

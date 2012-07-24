@@ -1,9 +1,11 @@
 <resources>
 
-    <string name="app_name">TestActivities</string>
+    <string name="app_name">TravelCost</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">Activity Test</string>
     <string name="button">Button</string>
+    <string name="Wheredoyouwanttogo">Where do you want to go?</string>
+    <string name="Go">Go</string>
 
 </resources>

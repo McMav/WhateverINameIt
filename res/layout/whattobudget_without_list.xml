@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/budgetFor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="What would you like to budget for?"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <CheckBox
+        android:id="@+id/checkFuel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Fuel" />
+    
+     <CheckBox
+        android:id="@+id/checkFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food" />
+     
+      <CheckBox
+        android:id="@+id/checkLodging"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lodging" />
+      
+       <CheckBox
+        android:id="@+id/checkActivities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activities" />
+       
+        <CheckBox
+        android:id="@+id/checkAlcohol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alcohol" />
+
+</TableLayout>

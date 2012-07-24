@@ -1,32 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+	xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+	android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/text_wheretogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_marginTop="134dp"
         android:padding="@dimen/padding_medium"
-        android:text="@string/hello_world"
-        tools:context=".Main" />
+        android:text="@string/Wheredoyouwanttogo"
+        android:textSize="25dp"
+        tools:context=".Main" /><Button android:id="@+id/destinationGo" 
+        android:layout_width="100dp" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true" 
+        android:layout_centerHorizontal="true" 
+        android:layout_marginBottom="84dp" 
+        android:text="@string/Go" />
 
-    <Button
-        android:id="@+id/button1"
+    <EditText
+        android:id="@+id/editDestination"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView1"
+        android:layout_below="@+id/text_wheretogo"
         android:layout_centerHorizontal="true"
-        android:text="button" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_below="@+id/textView1"
-        android:text="Button" />
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:inputType="text" />
 
 </RelativeLayout>
