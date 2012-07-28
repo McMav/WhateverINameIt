@@ -11,16 +11,16 @@
         android:text="What items do you want to Budget?"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:typeface="sans" />
-
+
     <ListView
         android:id="@+id/whatToShowList"
         android:layout_width="wrap_content"
         android:layout_height="411dp"
         android:layout_gravity="center_vertical"
+        android:layout_weight="0.37"
         android:textColor="#ffffff" >
-
     </ListView>
-
+
     <Button
         android:id="@+id/GoToSetAmounts"
         android:layout_width="wrap_content"
